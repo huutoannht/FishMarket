@@ -1,0 +1,5 @@
+F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.dll
+F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.pdb
+F:\Training\Net\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.csprojResolveAssemblyReference.cache
+F:\Training\Net\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.dll
+F:\Training\Net\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.pdb
