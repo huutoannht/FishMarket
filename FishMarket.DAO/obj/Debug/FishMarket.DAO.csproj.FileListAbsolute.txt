@@ -13,3 +13,18 @@ F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\EntityFramework.xml
 F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.csprojResolveAssemblyReference.cache
 F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.dll
 F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\SakyMart.mdf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\SakyMart_log.ldf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DAO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DAO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\EntityFramework.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DTO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Entities.exe
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Interfaces.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Entities.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DTO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Interfaces.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\bin\Debug\EntityFramework.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.csprojResolveAssemblyReference.cache
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.pdb

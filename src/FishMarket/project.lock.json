@@ -1806,6 +1806,9 @@
           "FishMarket.DTO": "1.0.0",
           "FishMarket.Entities": "1.0.0"
         }
+      },
+      "FishMarket.Unilities/1.0.0": {
+        "type": "project"
       }
     }
   },
@@ -4754,6 +4757,10 @@
     "FishMarket.Interfaces/1.0.0": {
       "type": "project",
       "msbuildProject": "../../FishMarket.Interfaces/FishMarket.Interfaces.csproj"
+    },
+    "FishMarket.Unilities/1.0.0": {
+      "type": "project",
+      "msbuildProject": "../../FishMarket.Unilities/FishMarket.Unilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4779,7 +4786,8 @@
       "FishMarket.BLO",
       "FishMarket.DAO",
       "FishMarket.DTO",
-      "FishMarket.Interfaces"
+      "FishMarket.Interfaces",
+      "FishMarket.Unilities"
     ]
   },
   "tools": {

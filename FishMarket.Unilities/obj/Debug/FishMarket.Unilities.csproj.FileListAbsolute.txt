@@ -1,0 +1,4 @@
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Unilities\bin\Debug\FishMarket.Unilities.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Unilities\bin\Debug\FishMarket.Unilities.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Unilities\obj\Debug\FishMarket.Unilities.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Unilities\obj\Debug\FishMarket.Unilities.pdb

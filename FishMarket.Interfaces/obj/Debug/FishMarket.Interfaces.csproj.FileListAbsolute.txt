@@ -11,3 +11,16 @@ F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\EntityFramework.dll
 F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Entities.pdb
 F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.DTO.pdb
 F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\SakyMart.mdf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\SakyMart_log.ldf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Interfaces.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Interfaces.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.DTO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Entities.exe
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Entities.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.DTO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.pdb

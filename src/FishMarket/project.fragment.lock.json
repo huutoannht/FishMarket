@@ -71,6 +71,23 @@
         }
       }
     },
+    "FishMarket.Unilities/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/FishMarket.Unilities.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/FishMarket.Unilities.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.Unilities.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
     "FishMarket.Entities/1.0.0": {
       "type": "project",
       "framework": ".NETFramework,Version=v4.5",

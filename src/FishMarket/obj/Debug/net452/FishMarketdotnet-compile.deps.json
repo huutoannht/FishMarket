@@ -21,6 +21,7 @@
           "FishMarket.DAO": "1.0.0",
           "FishMarket.DTO": "1.0.0",
           "FishMarket.Interfaces": "1.0.0",
+          "FishMarket.Unilities": "1.0.0",
           "AutoMapper": "5.2.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.2.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
@@ -1048,6 +1049,11 @@
           "bin/Debug/FishMarket.Interfaces.dll": {}
         }
       },
+      "FishMarket.Unilities/1.0.0": {
+        "compile": {
+          "bin/Debug/FishMarket.Unilities.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/mscorlib.dll": {}
@@ -1126,6 +1132,7 @@
           "FishMarket.DAO": "1.0.0",
           "FishMarket.DTO": "1.0.0",
           "FishMarket.Interfaces": "1.0.0",
+          "FishMarket.Unilities": "1.0.0",
           "AutoMapper": "5.2.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.2.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
@@ -2073,6 +2080,11 @@
           "bin/Debug/FishMarket.Interfaces.dll": {}
         }
       },
+      "FishMarket.Unilities/1.0.0": {
+        "runtime": {
+          "bin/Debug/FishMarket.Unilities.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -2661,6 +2673,11 @@
       "sha512": ""
     },
     "FishMarket.Interfaces/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FishMarket.Unilities/1.0.0": {
       "type": "msbuildproject",
       "serviceable": false,
       "sha512": ""

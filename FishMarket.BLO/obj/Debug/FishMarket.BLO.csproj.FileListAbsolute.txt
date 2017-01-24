@@ -15,3 +15,22 @@ F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Entities.pdb
 F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.DTO.pdb
 F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Interfaces.pdb
 F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\EntityFramework.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\SakyMart.mdf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\SakyMart_log.ldf
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\AutoMapper.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.DTO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Entities.exe
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Interfaces.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Unilities.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\EntityFramework.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Entities.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.DTO.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Interfaces.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Unilities.pdb
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\AutoMapper.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\bin\Debug\EntityFramework.xml
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.csprojResolveAssemblyReference.cache
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.dll
+C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.pdb

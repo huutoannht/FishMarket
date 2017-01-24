@@ -41,6 +41,9 @@
         },
         "FishMarket.Interfaces": {
           "target": "project"
+        },
+        "FishMarket.Unilities": {
+          "target": "project"
         }
       }
     }

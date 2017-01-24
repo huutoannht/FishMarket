@@ -10,6 +10,7 @@ using System.Net.Mail;
 using FishMarket.Interfaces;
 using FishMarket.Entities;
 using AutoMapper;
+using FishMarket.Unilities;
 
 namespace FishMarket.BLO
 {
@@ -128,7 +129,7 @@ namespace FishMarket.BLO
                 products = _productDataService.GetProducts(currentPageNumber, pageSize, sortExpression, sortDirection, out totalRows);
                 _productDataService.CloseSession();
 
-                transaction.TotalPages = CodeProject.Business.Common.Utilities.CalculateTotalPages(totalRows, pageSize);
+                transaction.TotalPages =Utilities.CalculateTotalPages(totalRows, pageSize);
                 transaction.TotalRows = totalRows;
 
                 transaction.ReturnStatus = true;

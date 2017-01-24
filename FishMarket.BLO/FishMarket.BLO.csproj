@@ -65,6 +65,10 @@
       <Project>{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}</Project>
       <Name>FishMarket.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FishMarket.Unilities\FishMarket.Unilities.csproj">
+      <Project>{13C7DFAE-881B-4DAD-AEB4-8940C196DA90}</Project>
+      <Name>FishMarket.Unilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
