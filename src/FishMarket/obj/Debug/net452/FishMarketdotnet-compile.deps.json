@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETFramework,Version=v4.5.2/",
-    "signature": "6141e0519ff18594ce3ad54b0f25e9664ba0f046"
+    "signature": "7eeb700ba12fe2b1d23c95104d064ab9db1a947c"
   },
   "compilationOptions": {
     "defines": [
@@ -17,6 +17,12 @@
     ".NETFramework,Version=v4.5.2": {
       "FishMarket/1.0.0": {
         "dependencies": {
+          "FishMarket.BLO": "1.0.0",
+          "FishMarket.DAO": "1.0.0",
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0",
+          "AutoMapper": "5.2.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.2.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
           "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -33,6 +39,22 @@
         },
         "compile": {
           "FishMarket.exe": {}
+        }
+      },
+      "AutoMapper/5.2.0": {
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/1.2.0": {
+        "dependencies": {
+          "AutoMapper": "5.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyModel": "1.0.0",
+          "System.Runtime": "4.0.10.0"
+        },
+        "compile": {
+          "lib/net451/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Libuv/1.9.0": {
@@ -987,6 +1009,45 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "FishMarket.BLO/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/Debug/FishMarket.BLO.dll": {}
+        }
+      },
+      "FishMarket.DAO/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/Debug/FishMarket.DAO.dll": {}
+        }
+      },
+      "FishMarket.DTO/1.0.0": {
+        "compile": {
+          "bin/Debug/FishMarket.DTO.dll": {}
+        }
+      },
+      "FishMarket.Entities/1.0.0": {
+        "compile": {
+          "bin/Debug/FishMarket.Entities.exe": {}
+        }
+      },
+      "FishMarket.Interfaces/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/Debug/FishMarket.Interfaces.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/mscorlib.dll": {}
@@ -1061,6 +1122,12 @@
     ".NETFramework,Version=v4.5.2/": {
       "FishMarket/1.0.0": {
         "dependencies": {
+          "FishMarket.BLO": "1.0.0",
+          "FishMarket.DAO": "1.0.0",
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0",
+          "AutoMapper": "5.2.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.2.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
           "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -1077,6 +1144,22 @@
         },
         "runtime": {
           "FishMarket.exe": {}
+        }
+      },
+      "AutoMapper/5.2.0": {
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/1.2.0": {
+        "dependencies": {
+          "AutoMapper": "5.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyModel": "1.0.0",
+          "System.Runtime": "4.0.10.0"
+        },
+        "runtime": {
+          "lib/net451/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Libuv/1.9.0": {
@@ -1947,6 +2030,49 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "FishMarket.BLO/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "../packages/AutoMapper.5.2.0/lib/net45/AutoMapper.dll": {},
+          "bin/Debug/FishMarket.BLO.dll": {}
+        }
+      },
+      "FishMarket.DAO/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0",
+          "FishMarket.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.dll": {},
+          "bin/Debug/FishMarket.DAO.dll": {}
+        }
+      },
+      "FishMarket.DTO/1.0.0": {
+        "runtime": {
+          "bin/Debug/FishMarket.DTO.dll": {}
+        }
+      },
+      "FishMarket.Entities/1.0.0": {
+        "runtime": {
+          "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.SqlServer.dll": {},
+          "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.dll": {},
+          "bin/Debug/FishMarket.Entities.exe": {}
+        }
+      },
+      "FishMarket.Interfaces/1.0.0": {
+        "dependencies": {
+          "FishMarket.DTO": "1.0.0",
+          "FishMarket.Entities": "1.0.0"
+        },
+        "runtime": {
+          "bin/Debug/FishMarket.Interfaces.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -1968,6 +2094,16 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulUMmzFg1vAFMpTyJsplgnC7pOIFlb25dbldHd7J4eroQWjSV4iAoOQ33h1oMjf6mLo3uZ8aRNUN2rgpOeSE1w=="
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pSWmuxqlE6aZNSljcEC0hXEGHrswi2ukYGDiypcBNYMLaOwPxpp4LmT9z9Eqb3EDweC1S9uRSLQPiuSRhwxVow=="
     },
     "Libuv/1.9.0": {
       "type": "package",
@@ -2503,6 +2639,31 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w=="
+    },
+    "FishMarket.BLO/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FishMarket.DAO/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FishMarket.DTO/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FishMarket.Entities/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FishMarket.Interfaces/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
     },
     "mscorlib/4.0.0.0": {
       "type": "referenceassembly",

@@ -1,0 +1,15 @@
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\SakyMart.mdf
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\SakyMart_log.ldf
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DAO.dll
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DAO.pdb
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\EntityFramework.dll
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DTO.dll
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Entities.exe
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Interfaces.dll
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Entities.pdb
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DTO.pdb
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.Interfaces.pdb
+F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\EntityFramework.xml
+F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.csprojResolveAssemblyReference.cache
+F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.dll
+F:\Training\Net\FishMarket\FishMarket.DAO\obj\Debug\FishMarket.DAO.pdb

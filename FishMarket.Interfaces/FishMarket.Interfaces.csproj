@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IProductDataService.cs" />
     <Compile Include="IUserDataService.cs" />
     <Compile Include="IDataRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EntityFramework\FishMarket.Entities.csproj">
+      <Project>{10bf61e1-cb80-4434-93cc-41f661467d4c}</Project>
+      <Name>FishMarket.Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FishMarket.DTO\FishMarket.DTO.csproj">
       <Project>{4964416d-bb3a-4815-b560-853a983fd722}</Project>
       <Name>FishMarket.DTO</Name>

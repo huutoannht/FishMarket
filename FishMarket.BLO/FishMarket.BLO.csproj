@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.2.0\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountBussinessService.cs" />
+    <Compile Include="ProductBusinessService.cs" />
+    <Compile Include="TransactionalInformation.cs" />
+    <Compile Include="UserBussinessService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityFramework\FishMarket.Entities.csproj">
+      <Project>{10bf61e1-cb80-4434-93cc-41f661467d4c}</Project>
+      <Name>FishMarket.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FishMarket.DTO\FishMarket.DTO.csproj">
+      <Project>{4964416D-BB3A-4815-B560-853A983FD722}</Project>
+      <Name>FishMarket.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FishMarket.Interfaces\FishMarket.Interfaces.csproj">
+      <Project>{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}</Project>
+      <Name>FishMarket.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -117,6 +117,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FishMarketEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="IDataRepository.cs" />
     <Compile Include="Image.cs">
       <DependentUpon>FishMarketEntities.tt</DependentUpon>
     </Compile>
@@ -229,12 +230,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FishMarket.Interfaces\FishMarket.Interfaces.csproj">
-      <Project>{b9eac32d-6ea3-484f-ba9b-3766800f8b0b}</Project>
-      <Name>FishMarket.Interfaces</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FishMarketEntities.Context.tt">

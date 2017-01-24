@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "exports": {
+    "FishMarket.BLO/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/FishMarket.BLO.dll": {}
+      },
+      "runtime": {
+        "../packages/AutoMapper.5.2.0/lib/net45/AutoMapper.dll": {},
+        "bin/Debug/FishMarket.BLO.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.BLO.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "FishMarket.DAO/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/FishMarket.DAO.dll": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/FishMarket.DAO.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.DAO.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "FishMarket.DTO/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/FishMarket.DTO.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/FishMarket.DTO.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.DTO.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "FishMarket.Interfaces/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/FishMarket.Interfaces.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/FishMarket.Interfaces.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.Interfaces.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "FishMarket.Entities/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/FishMarket.Entities.exe": {}
+      },
+      "runtime": {
+        "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.SqlServer.dll": {},
+        "../packages/EntityFramework.6.1.2/lib/net45/EntityFramework.dll": {},
+        "bin/Debug/FishMarket.Entities.exe": {}
+      },
+      "contentFiles": {
+        "bin/Debug/FishMarket.Entities.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        },
+        "bin/Debug/sakymart.mdf": {
+          "buildAction": "Content",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "sakymart.mdf"
+        },
+        "bin/Debug/sakymart_log.ldf": {
+          "buildAction": "Content",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "sakymart_log.ldf"
+        }
+      }
+    }
+  }
+}

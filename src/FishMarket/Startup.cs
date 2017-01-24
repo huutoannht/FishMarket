@@ -7,6 +7,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using FishMarket.DAO;
+using FishMarket.Interfaces;
+using Models;
+using AutoMapper;
+using FishMarket.Entities;
 
 namespace FishMarket
 {
@@ -20,6 +25,7 @@ namespace FishMarket
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+            //AutoMapperCommonConfiguration.Configure();
         }
 
         public IConfigurationRoot Configuration { get; }
@@ -27,8 +33,9 @@ namespace FishMarket
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             // Add framework services.
+            services.AddSingleton<IUserDataService, UserDataService>();
+            services.AddAutoMapper();
             services.AddMvc();
         }
 
@@ -37,7 +44,7 @@ namespace FishMarket
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

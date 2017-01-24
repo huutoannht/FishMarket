@@ -14,6 +14,8 @@
 --version:1.0.0.0
 --informational-version:1.0.0
 --target-framework:.NETFramework,Version=v4.5.2
+--reference:C:\Users\AnhZin\.nuget\packages\AutoMapper\5.2.0\lib\net45\AutoMapper.dll
+--reference:C:\Users\AnhZin\.nuget\packages\AutoMapper.Extensions.Microsoft.DependencyInjection\1.2.0\lib\net451\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 --reference:C:\Users\AnhZin\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\net451\Microsoft.AspNetCore.Antiforgery.dll
 --reference:C:\Users\AnhZin\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\net451\Microsoft.AspNetCore.Authorization.dll
 --reference:C:\Users\AnhZin\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\net451\Microsoft.AspNetCore.Cors.dll
@@ -136,6 +138,11 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\System.Threading.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\System.Threading.Tasks.dll
 --reference:C:\Users\AnhZin\.nuget\packages\System.Threading.Tasks.Extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll
+--reference:F:\Training\Net\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.dll
+--reference:F:\Training\Net\FishMarket\FishMarket.DAO\bin\Debug\FishMarket.DAO.dll
+--reference:F:\Training\Net\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.dll
+--reference:F:\Training\Net\FishMarket\EntityFramework\bin\Debug\FishMarket.Entities.exe
+--reference:F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Interfaces.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
@@ -151,6 +158,9 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\System.Diagnostics.Tracing.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\System.Reflection.Primitives.dll
 --resource:"F:\Training\Net\FishMarket\src\FishMarket\obj\Debug\net452\FishMarketdotnet-compile.deps.json",FishMarket.deps.json
+F:\Training\Net\FishMarket\src\FishMarket\AutoMapperCommonConfiguration.cs
+F:\Training\Net\FishMarket\src\FishMarket\MappingProfile.cs
 F:\Training\Net\FishMarket\src\FishMarket\Program.cs
 F:\Training\Net\FishMarket\src\FishMarket\Startup.cs
+F:\Training\Net\FishMarket\src\FishMarket\Controllers\BaseController.cs
 F:\Training\Net\FishMarket\src\FishMarket\Controllers\HomeController.cs

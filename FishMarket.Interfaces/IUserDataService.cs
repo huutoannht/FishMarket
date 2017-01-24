@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FishMarket.Interfaces;
 using FishMarket.DTO;
+using FishMarket.Entities;
 
 namespace FishMarket.Interfaces
 {
@@ -13,8 +14,8 @@ namespace FishMarket.Interfaces
     /// </summary>
     public interface IUserDataService : IDataRepository, IDisposable
     {
-        void CreateUser(Meber user);
-        void UpdateUser(Users user);
-        Users Login(Users user);
+        void CreateUser(Membership membership);
+        void UpdateUser(Membership membership);
+        Membership Login(Membership membership);
     }
 }

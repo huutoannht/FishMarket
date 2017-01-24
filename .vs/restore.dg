@@ -1,1 +1,13 @@
 #:F:\Training\Net\FishMarket\src\FishMarket\FishMarket.xproj
+F:\Training\Net\FishMarket\src\FishMarket\FishMarket.xproj|F:\Training\Net\FishMarket\FishMarket.BLO\FishMarket.BLO.csproj
+F:\Training\Net\FishMarket\src\FishMarket\FishMarket.xproj|F:\Training\Net\FishMarket\FishMarket.DAO\FishMarket.DAO.csproj
+F:\Training\Net\FishMarket\src\FishMarket\FishMarket.xproj|F:\Training\Net\FishMarket\FishMarket.DTO\FishMarket.DTO.csproj
+F:\Training\Net\FishMarket\src\FishMarket\FishMarket.xproj|F:\Training\Net\FishMarket\FishMarket.Interfaces\FishMarket.Interfaces.csproj
+F:\Training\Net\FishMarket\FishMarket.BLO\FishMarket.BLO.csproj|F:\Training\Net\FishMarket\FishMarket.Interfaces\FishMarket.Interfaces.csproj
+F:\Training\Net\FishMarket\FishMarket.BLO\FishMarket.BLO.csproj|F:\Training\Net\FishMarket\FishMarket.DTO\FishMarket.DTO.csproj
+F:\Training\Net\FishMarket\FishMarket.BLO\FishMarket.BLO.csproj|F:\Training\Net\FishMarket\EntityFramework\FishMarket.Entities.csproj
+F:\Training\Net\FishMarket\FishMarket.Interfaces\FishMarket.Interfaces.csproj|F:\Training\Net\FishMarket\FishMarket.DTO\FishMarket.DTO.csproj
+F:\Training\Net\FishMarket\FishMarket.Interfaces\FishMarket.Interfaces.csproj|F:\Training\Net\FishMarket\EntityFramework\FishMarket.Entities.csproj
+F:\Training\Net\FishMarket\FishMarket.DAO\FishMarket.DAO.csproj|F:\Training\Net\FishMarket\FishMarket.Interfaces\FishMarket.Interfaces.csproj
+F:\Training\Net\FishMarket\FishMarket.DAO\FishMarket.DAO.csproj|F:\Training\Net\FishMarket\FishMarket.DTO\FishMarket.DTO.csproj
+F:\Training\Net\FishMarket\FishMarket.DAO\FishMarket.DAO.csproj|F:\Training\Net\FishMarket\EntityFramework\FishMarket.Entities.csproj

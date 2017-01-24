@@ -2,3 +2,4 @@ F:\Training\Net\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.dll
 F:\Training\Net\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.pdb
 F:\Training\Net\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.dll
 F:\Training\Net\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.pdb
+F:\Training\Net\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.csprojResolveAssemblyReference.cache
