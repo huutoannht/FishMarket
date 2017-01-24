@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EntityFramework
+namespace FishMarket.Entities
 {
     using System;
     using System.Collections.Generic;

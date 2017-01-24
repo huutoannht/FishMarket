@@ -6,19 +6,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace EntityFramework
+namespace FishMarket.Entities
 {
-   
 
     public class EntityFrameworkService : IDataRepository, IDisposable
     {
 
-        FishMarketEntities _connection;
+        SakyMartEntities _connection;
 
         /// <summary>
         /// Database Context
         /// </summary>
-        public FishMarketEntities dbConnection
+        public SakyMartEntities dbConnection
         {
             get { return _connection; }
         }
@@ -46,7 +45,7 @@ namespace EntityFramework
         {
             //Database.SetInitializer(new MigrateDatabaseToLatestVersion<CodeProjectDatabase, Configuration>()); 
 
-            _connection = new FishMarketEntities(); 
+            _connection = new SakyMartEntities(); 
         }
         public void BeginTransaction() { }
 

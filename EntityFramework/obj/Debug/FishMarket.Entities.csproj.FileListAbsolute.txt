@@ -1,0 +1,1 @@
+F:\Training\Net\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.csprojResolveAssemblyReference.cache

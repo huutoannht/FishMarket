@@ -2,3 +2,4 @@ F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Interfaces
 F:\Training\Net\FishMarket\FishMarket.Interfaces\bin\Debug\FishMarket.Interfaces.pdb
 F:\Training\Net\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.dll
 F:\Training\Net\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.pdb
+F:\Training\Net\FishMarket\FishMarket.Interfaces\obj\Debug\FishMarket.Interfaces.csprojResolveAssemblyReference.cache

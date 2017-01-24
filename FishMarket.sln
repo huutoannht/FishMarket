@@ -12,13 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FishMarket", "src\FishMarket\FishMarket.xproj", "{61752DF4-B43F-4CED-980F-442B114C4CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{10BF61E1-CB80-4434-93CC-41F661467D4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.Entities", "EntityFramework\FishMarket.Entities.csproj", "{10BF61E1-CB80-4434-93CC-41F661467D4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.DTO", "FishMarket.DTO\FishMarket.DTO.csproj", "{4964416D-BB3A-4815-B560-853A983FD722}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.BLO", "FishMarket.BLO\FishMarket.BLO.csproj", "{0E748DEE-21CE-4C21-8DD0-BD64775CFDA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.Interfaces", "FishMarket.Interfaces\FishMarket.Interfaces.csproj", "{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.DAO", "FishMarket.DAO\FishMarket.DAO.csproj", "{FCD8D3E5-912B-43CE-B589-7209D51EF7F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,12 +48,15 @@ Global
 		{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9EAC32D-6EA3-484F-BA9B-3766800F8B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD8D3E5-912B-43CE-B589-7209D51EF7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD8D3E5-912B-43CE-B589-7209D51EF7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD8D3E5-912B-43CE-B589-7209D51EF7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD8D3E5-912B-43CE-B589-7209D51EF7F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{61752DF4-B43F-4CED-980F-442B114C4CE5} = {1FEA8F8C-1B84-4772-829D-7EC1EEA91E2C}
-		{4964416D-BB3A-4815-B560-853A983FD722} = {1FEA8F8C-1B84-4772-829D-7EC1EEA91E2C}
 	EndGlobalSection
 EndGlobal
