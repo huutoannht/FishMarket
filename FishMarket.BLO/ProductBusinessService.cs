@@ -8,19 +8,22 @@ using System.Web;
 using System.IO;
 using System.Net.Mail;
 using FishMarket.Interfaces;
+using FishMarket.Entities;
+using AutoMapper;
 
 namespace FishMarket.BLO
 {
     public class ProductBusinessService
     {
         private IProductDataService _productDataService;
-
+        private IMapper _mapper;
         /// <summary>
         /// Constructor
         /// </summary>
-        public ProductBusinessService(IProductDataService productDataService)
+        public ProductBusinessService(IProductDataService productDataService, IMapper mapper)
         {
             _productDataService = productDataService;
+            _mapper = mapper;
         }
 
         /// <summary>
@@ -29,27 +32,16 @@ namespace FishMarket.BLO
         /// <param name="product"></param>
         /// <param name="transaction"></param>
         /// <returns></returns>
-        public Product CreateProduct(Entities.Product product, out TransactionalInformation transaction)
+        public Product CreateProduct(ProductModel product, out TransactionalInformation transaction)
         {
             transaction = new TransactionalInformation();
-
+            var productEntity = _mapper.Map<ProductModel, Product>(product);
             try
             {
-                ProductBusinessRules productBusinessRules = new ProductBusinessRules();
-                ValidationResult results = productBusinessRules.Validate(product);
-
-                bool validationSucceeded = results.IsValid;
-                IList<ValidationFailure> failures = results.Errors;
-
-                if (validationSucceeded == false)
-                {
-                    transaction = ValidationErrors.PopulateValidationErrors(failures);
-                    return product;
-                }
-
                 _productDataService.CreateSession();
                 _productDataService.BeginTransaction();
-                _productDataService.CreateProduct(product);
+              
+                _productDataService.CreateProduct(productEntity);
                 _productDataService.CommitTransaction(true);
 
                 transaction.ReturnStatus = true;
@@ -67,7 +59,7 @@ namespace FishMarket.BLO
                 _productDataService.CloseSession();
             }
 
-            return product;
+            return productEntity;
 
 
         }
@@ -84,25 +76,12 @@ namespace FishMarket.BLO
             try
             {
 
-                ProductBusinessRules productBusinessRules = new ProductBusinessRules();
-                ValidationResult results = productBusinessRules.Validate(product);
-
-                bool validationSucceeded = results.IsValid;
-                IList<ValidationFailure> failures = results.Errors;
-
-                if (validationSucceeded == false)
-                {
-                    transaction = ValidationErrors.PopulateValidationErrors(failures);
-                    return;
-                }
-
                 _productDataService.CreateSession();
                 _productDataService.BeginTransaction();
 
                 Product existingProduct = _productDataService.GetProduct(product.ProductID);
 
                 existingProduct.ProductName = product.ProductName;
-                existingProduct.QuantityPerUnit = product.QuantityPerUnit;
                 existingProduct.UnitPrice = product.UnitPrice;
              
                 _productDataService.UpdateProduct(product);
