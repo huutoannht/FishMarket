@@ -34,3 +34,22 @@ C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.csprojResolveAssemblyReference.cache
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.dll
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\SakyMart.mdf
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\SakyMart_log.ldf
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.BLO.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\AutoMapper.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.DTO.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Entities.exe
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Interfaces.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Unilities.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\EntityFramework.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Entities.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.DTO.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Interfaces.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\FishMarket.Unilities.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\AutoMapper.xml
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\bin\Debug\EntityFramework.xml
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.csprojResolveAssemblyReference.cache
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.BLO\obj\Debug\FishMarket.BLO.pdb

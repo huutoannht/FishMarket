@@ -7,3 +7,8 @@ C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.pdb
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.dll
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.DTO\bin\Debug\FishMarket.DTO.pdb
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.csprojResolveAssemblyReference.cache
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.dll
+F:\Training\Net\FishMarket2\FishMarket\FishMarket.DTO\obj\Debug\FishMarket.DTO.pdb

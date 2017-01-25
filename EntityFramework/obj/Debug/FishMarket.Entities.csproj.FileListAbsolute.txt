@@ -21,3 +21,15 @@ C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.exe
 C:\Users\hi\Documents\visual studio 2015\Projects\FishMarket\FishGit\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.pdb
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\SakyMart.mdf
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\SakyMart_log.ldf
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\FishMarket.Entities.exe.config
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\FishMarket.Entities.exe
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\FishMarket.Entities.pdb
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\EntityFramework.dll
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\EntityFramework.xml
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.csprojResolveAssemblyReference.cache
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.exe
+F:\Training\Net\FishMarket2\FishMarket\EntityFramework\obj\Debug\FishMarket.Entities.pdb

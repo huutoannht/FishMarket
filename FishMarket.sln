@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.DAO", "FishMarke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishMarket.Unilities", "FishMarket.Unilities\FishMarket.Unilities.csproj", "{13C7DFAE-881B-4DAD-AEB4-8940C196DA90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "WebSite\WebSite.csproj", "{78C6B77C-A488-4C1A-BEDF-D9CB5D59F702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{13C7DFAE-881B-4DAD-AEB4-8940C196DA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C7DFAE-881B-4DAD-AEB4-8940C196DA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C7DFAE-881B-4DAD-AEB4-8940C196DA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C6B77C-A488-4C1A-BEDF-D9CB5D59F702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C6B77C-A488-4C1A-BEDF-D9CB5D59F702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C6B77C-A488-4C1A-BEDF-D9CB5D59F702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C6B77C-A488-4C1A-BEDF-D9CB5D59F702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
