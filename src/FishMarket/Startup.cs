@@ -35,6 +35,7 @@ namespace FishMarket
         {
             // Add framework services.
             services.AddSingleton<IUserDataService, UserDataService>();
+            services.AddSingleton<IProductDataService, ProductDataService>();
             services.AddAutoMapper();
             services.AddMvc();
         }

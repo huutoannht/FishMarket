@@ -12,25 +12,22 @@ namespace FishMarket.Controllers
 {
     public class ProductController : BaseController
     {
-        private readonly IUserDataService _userDataService;
+        private readonly IProductDataService _productDataService;
         private readonly IMapper _mapper;
-        public ProductController(IUserDataService userDataService, IMapper mapper)
+        public ProductController(IProductDataService productDataService, IMapper mapper)
         {
-            _userDataService = userDataService;
+            _productDataService = productDataService;
             _mapper = mapper;
         }
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Login(MembershipModel membershipModel)
-        {
-            UserBussinessService userBussinessService = new UserBussinessService(_userDataService, _mapper);
+            ProductBusinessService productBusinessService = new ProductBusinessService(_productDataService, _mapper);
             TransactionalInformation transaction;
-            Membership membership  = userBussinessService.Login(membershipModel, out transaction);
-            return View();
+            List<Product> listProduct = productBusinessService.GetProducts(0,0,"","", out transaction);
+            return View(listProduct);
         }
+      
 
         public IActionResult ListProduct()
         {

@@ -61,7 +61,7 @@ namespace FishMarket.DAO
             totalRows = dbConnection.Products.Count();
 
             //List<Product> products = dbConnection.Products.OrderBy(sortExpression).Skip((currentPageNumber - 1) * pageSize).Take(pageSize).ToList();
-
+            List<Product> products = dbConnection.Products.ToList();
             return null;
 
         }
