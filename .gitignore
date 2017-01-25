@@ -1,0 +1,25 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FishMarket.DAO/bin
+/FishMarket.DAO/bin/obj/Debug
+
+/FishMarket.BLO/bin
+/FishMarket.BLO/bin/obj/Debug
+
+/FishMarket.DTO/bin
+/FishMarket.DTO/bin/obj/Debug
+
+/FishMarket.DAO/bin
+/FishMarket.DAO/bin/obj/Debug
+
+
+/FishMarket.Interfaces/bin
+/FishMarket.Interfaces/bin/obj/Debug
+
+
+/FishMarket.Unilities/bin
+/FishMarket.Unilities/bin/obj/Debug
+
+/packages

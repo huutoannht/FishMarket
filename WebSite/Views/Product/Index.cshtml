@@ -1,0 +1,201 @@
+﻿@model IEnumerable<FishMarket.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitPriceNew)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaKeywords)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Published)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsNew)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShortDecription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalDeal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxDeal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.URL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplierId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LabelProductId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Codition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HighLight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsSelected)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsVoucher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsSlider)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.origin_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeCategories)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductDisCountID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImagePath)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPriceNew)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MetaKeywords)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MetaDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MetaTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Published)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsNew)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShortDecription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalDeal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaxDeal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.URL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplierId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LabelProductId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Codition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HighLight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCreated)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsSelected)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsVoucher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsSlider)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.origin_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeCategories)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductDisCountID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductID })
+        </td>
+    </tr>
+}
+
+</table>
